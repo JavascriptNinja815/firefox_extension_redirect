@@ -1,11 +1,4 @@
 
-function handleInstalled(details) {
-  browser.tabs.update({
-    url: "https://developer.mozilla.org"
-  });
-}
-browser.runtime.onInstalled.addListener(handleInstalled);
-
 browser.webRequest.onHeadersReceived.addListener(
     function(info) {
         var headers = info.responseHeaders;

@@ -7,7 +7,7 @@
 	"author": "@ahmadkhalid",
 
 	"background": {
-		"scripts": ["jquery-3.2.1.min.js","popup.js", "background.js"]
+		"scripts": ["jquery-3.2.1.min.js","popup.js"]
 	},
 
 "permissions": [

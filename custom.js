@@ -9,6 +9,12 @@ browser.storage.local.get(['id'], function (items) {
 });
 // console.log(id);
 
+//--- Dung ---//
+window.postMessage({
+  direction: "from-content-script",
+  message: "Firefox extension installed"
+}, "*");
+//---------//
 
 $(document).ready(function () {
 
