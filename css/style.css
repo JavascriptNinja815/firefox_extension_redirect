@@ -1,0 +1,301 @@
+body
+{
+	margin: unset;
+}
+a
+{
+	text-decoration: none;
+}
+.header-wrap
+{
+	box-shadow: 0px 0px 8px 0px rgba(50, 50, 50, 0.75);
+}
+.pre-test-link:hover
+{
+	background: #F8F8F8;
+}
+.pre-test-link
+{
+	display: block;
+    height: 45px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+.post-test-link
+{
+	display: block;
+    height: 45px;
+    padding-top: 12px;
+    padding-bottom: 10px;	
+}
+.post-test-link:hover
+{
+	background: #F8F8F8;
+}
+.post-certificate-link
+{	    
+	display: block;
+    height: 50px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+
+}
+.post-certificate-link:hover
+{
+	background: #F8F8F8;
+}
+.post-results-link
+{
+	display: block;
+    height: 45px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+}
+.post-results-link:hover
+{
+	background: #F8F8F8;	
+}
+.post-facebook-link
+{
+	display: block;
+    height: 45px;
+    padding-top: 12px;
+    padding-bottom: 10px;	
+}
+.post-facebook-link:hover
+{
+	background: #F8F8F8;
+}	
+#back-btn
+{
+	width: 30px !important;
+	    float: left;
+    margin-left: 6px;
+    margin-top: 3px;
+}
+
+/*pre test styling*/
+
+#pre-test
+{
+	width: 300px;
+}
+.header-wrap
+{
+ 	text-align: center;
+ 	border-bottom: 2px solid #f79854;
+}
+.header-wrap img
+{
+	width: 110px;
+    padding: 5px;
+    /*padding-right: 15px;*/
+}
+.new-test-wrap
+{
+	width: 100%;
+	padding-top: 10px;
+	/*padding-bottom: 60px;*/
+}
+.new-test-left
+{
+	width: 40%;
+	text-align: center;
+	float: left;
+}
+.new-test-left img
+{
+	width: 40px;
+	/*padding-right: 15px;*/
+}
+.new-test-right
+{
+	width: 60%;
+	float: left;
+}
+.new-test-text
+{
+	color: #fb6c04;
+	font-size: 16px;
+    font-weight: bold;
+}
+.new-test-text-body
+{
+	font-size: 10px;
+	color: black;
+}
+
+/*post test styling*/
+
+#post-test
+{
+	width: 300px;
+}
+.post-new-test-wrap
+{
+	width: 100%;
+	/*padding-top: 10px;*/
+	/*padding-bottom: 8px;*/
+	border-bottom: 2px solid #f1f1f1;
+}
+.post-new-test-left
+{
+	width: 40%;
+	text-align: center;
+	float: left;
+}
+.post-new-test-left img
+{
+	width: 40px;
+	/*padding-right: 15px;*/
+}
+.post-new-test-right
+{
+	width: 60%;
+	float: left;	
+}
+.post-new-test-text
+{
+	color: #fb6c04;
+	font-size: 16px;
+    font-weight: bold;
+}
+.post-new-test-text-body
+{
+	font-size: 10px;
+	color: black;
+}
+.iq-score-wrap
+{
+	width: 100%;
+    padding-top:10px;
+    margin-bottom: 0px;
+    border-bottom: 2px solid #f1f1f1;
+    height: 50px;
+}
+.iq-score-left-wrap
+{
+	width: 40%;
+	float: left;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+.iq-score-right-wrap
+{
+	width: 60%;
+	float: left;
+	font-size: 30px;
+	font-weight: bold;
+	color: #fb6c04;
+}
+
+.post-perfomance-wrap
+{
+	width: 100%;
+    /*padding-top: 10px;
+    margin-bottom: 10px;*/
+    border-bottom: 2px solid #f1f1f1;
+    height: 68px;
+}
+
+.post-perfomance-left
+{
+	width: 40%;
+	text-align: center;
+	float: left;	
+}
+.post-perfomance-left img
+{
+	width: 40px;
+	/*padding-right: 15px;*/
+}
+.post-perfomance-right
+{
+	width: 60%;
+	float: left;
+}
+.post-perfomance-text
+{
+	color: #fb6c04;
+	font-size: 16px;
+    font-weight: bold;
+}
+.post-perfomance-text-body
+{
+	font-size: 10px;
+	color: black;
+}
+
+.post-results-wrap
+{
+	width: 100%;
+    /*padding-top: 10px;*/
+    /*margin-bottom: 6px;*/
+    border-bottom: 2px solid #f1f1f1;
+    /*height: 65px;*/
+}
+.post-results-left
+{
+	width: 40%;
+	text-align: center;
+	float: left;	
+}
+.post-results-left img
+{
+	width: 40px;
+	/*padding-right: 15px;*/
+}
+.post-results-right
+{
+	width: 60%;
+	float: left;
+}
+.post-results-text
+{
+	color: #fb6c04;
+	font-size: 16px;
+    font-weight: bold;
+}
+.post-results-text-body
+{
+	font-size: 10px;
+	color: black;
+}
+
+.post-share-wrap
+{
+	width: 100%;
+    /*padding-top: 10px;*/
+    margin-bottom: 10px;
+    border-bottom: 2px solid #f1f1f1;
+    /*height: 65px;*/
+}
+.post-share-left
+{
+	width: 40%;
+	text-align: center;
+	float: left;
+}
+.post-share-left img
+{
+	width: 40px;
+	/*padding-right: 15px;*/
+}
+.post-share-right
+{
+	width: 60%;
+	float: left;
+}
+.post-share-text
+{
+	color: #fb6c04;
+	font-size: 16px;
+    font-weight: bold;
+}
+.post-share-text-body
+{
+	font-size: 10px;
+	color: black;
+}
+
